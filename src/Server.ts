@@ -24,7 +24,6 @@ import methodOverride from "method-override";
   httpsPort: false, // CHANGE
   passport: {},
   mongoose: {
-    connection: "default",
     url: process.env.MONGO_URI || "mongodb+srv://taloh13:wiCVWul9cfaeK6xg@bono-free-cluster.bl3jcea.mongodb.net/BonoDB?readPreference=primary",
     connectionOptions: {}
   },
